@@ -26,3 +26,5 @@
 </h2>
 
 <h2 align="center">Primeira Tela. </h2>
+
+![Starbucks](https://user-images.githubusercontent.com/64989764/151046824-d658b3ee-96c5-43c6-8699-49917b2e90ee.png)
