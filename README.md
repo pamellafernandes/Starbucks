@@ -22,7 +22,7 @@
 <p> O projeto foi inspirado na tela inicial do Starbucks.</p>
 
 <h2 align="center"> 
-	Projeto concluído com sucesso... <img src="https://github.com/pamellafernandes/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="40px"> 
+	Projeto concluído com sucesso...🚀
 </h2>
 
 <h2 align="center">Primeira Tela. </h2>
