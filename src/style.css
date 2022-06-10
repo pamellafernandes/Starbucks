@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200;1,300;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    font-weight: 500;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 15%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.menu a:hover {
+    transition: 2s;
+    color: #017143;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background: #017143;
+}
+
+@media screen and (max-width: 1366px) {
+    .extras {
+        bottom: -650px;
+        right: -700px;
+        height: 1170px;
+    }
+}
+
+.extras #coffee {
+    width: 40%;
+    margin-left: 6%;
+    margin-top: -5%;
+}
+
+.social-media {
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media .icone {
+    display: block;
+    margin: 25px 0;
+    width: 20px;
+}
+
+.social-media a:first-of-type>img {
+    width: 12px;
+    margin-left: 2px;
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.texto-sobre h1 {
+    font-size: 60px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+@media screen and (max-width: 1366px) {
+    .texto-sobre {
+        margin-top: 0px;
+    }
+
+    .texto-sobre p {
+        max-width: 700px;
+    }
+}
+
+.destaque {
+    color: #017143;
+    font-weight: 900;
+}
+
+.block-align {
+    display: block;
+}
+
+.texto-sobre .botao {
+    border: none;
+    background: #017143;
+    border: 0.5px solid #000;
+    color: #fff;
+    border-radius: 45px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.texto-sobre .botao:hover {
+    transition: 2s;
+    opacity: 0.7;
+    border: 0.5px solid #000;
+    color: #fff;
+}
+
+.some-coffee {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.coffee {
+    width: 60px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.coffee:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 1366px) {
+    .coffee {
+        margin: 50px 25px -25px 25px;
+    }
+}
+
+.some-coffee .images {
+    width: 100%;
+}
+
+.center.align-center {
+    justify-content: center;
+}
